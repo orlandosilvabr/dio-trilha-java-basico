@@ -11,9 +11,9 @@ public class ContaTerminal {
         System.out.print("Digite o número da conta: ");
         numero  = teclado.nextInt();
         System.out.print("Digite o número da agência: ");
-        agencia = teclado.nextLine(); teclado.nextLine();
+        agencia = teclado.next();
         System.out.print("Digite o nome: ");
-        nome = teclado.nextLine();
+        nome = teclado.next();
         System.out.print("Digite o saldo da conta: ");
         saldo = teclado.nextDouble();
 
